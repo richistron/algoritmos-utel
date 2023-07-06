@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=692ab778_002Dbf97_002D4715_002Da110_002Dafa49c080ff0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="QuitValue" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9adc2cfc_002D9a43_002D4b31_002Db5f4_002D3186fc7844bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidInputOptionTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

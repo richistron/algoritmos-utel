@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semana1", "Semana1\Semana1.csproj", "{BA258317-B96E-4729-9876-2C426C711BFD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingAlgorithms", "SortingAlgorithms\SortingAlgorithms.csproj", "{BA258317-B96E-4729-9876-2C426C711BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specs", "Specs\Specs.csproj", "{D0B4ADCF-F1A8-4F23-A547-39111D1A6260}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +14,9 @@ Global
 		{BA258317-B96E-4729-9876-2C426C711BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA258317-B96E-4729-9876-2C426C711BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA258317-B96E-4729-9876-2C426C711BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B4ADCF-F1A8-4F23-A547-39111D1A6260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B4ADCF-F1A8-4F23-A547-39111D1A6260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B4ADCF-F1A8-4F23-A547-39111D1A6260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B4ADCF-F1A8-4F23-A547-39111D1A6260}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
