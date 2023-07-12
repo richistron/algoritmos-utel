@@ -1,6 +1,8 @@
 ﻿namespace Specs;
 
+using SortingAlgorithms;
 
+[TestFixture]
 public class ValidInputOptionTest
 {
     [Test]
