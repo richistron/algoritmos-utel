@@ -7,5 +7,6 @@
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
