@@ -3,7 +3,7 @@
 using SortingAlgorithms;
 
 [TestFixture]
-public class BubbleSortTest
+public class QuickSortTest
 {
     [Test]
     [TestCase(new[] { 9, 0, 3, 5 }, new[] { 0, 3, 5, 9 })]
@@ -13,5 +13,5 @@ public class BubbleSortTest
     [TestCase(new[] { 2, 1 }, new[] { 1, 2 })]
     [TestCase(new[] { 2 }, new[] { 2 })]
     public void Sort_Array(int[] input, int[] output) =>
-        CollectionAssert.AreEqual(BubbleSort.Sort(input), output);
+        CollectionAssert.AreEqual(QuickSort.Sort(input), output);
 }

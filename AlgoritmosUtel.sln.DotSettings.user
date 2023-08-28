@@ -1,6 +1,5 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9adc2cfc_002D9a43_002D4b31_002Db5f4_002D3186fc7844bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidInputOptionTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2fc69abd_002D6750_002D40d8_002D8d74_002Daf9a03ae5de8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidInputOptionTest #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
@@ -8,5 +7,65 @@
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=69171109_002Dbcd3_002D46e5_002Db6db_002D6e6e61f69b53/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidInputOptionTest #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9adc2cfc_002D9a43_002D4b31_002Db5f4_002D3186fc7844bc/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidInputOptionTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a2a5dd63_002Dc001_002D4a87_002Dafe8_002De8b244fa6cd8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidInputOptionTest #6" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ad8b21b1_002Da4db_002D4209_002D8660_002D5f27b6ca0442/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ValidInputOptionTest #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e6c734bc_002D16b0_002D4680_002Db6cc_002Dabb1d8eda1c7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ValidInputOptionTest #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.ValidInputOptionTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.Foo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.IgnoresInvalidValues&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest.DoesQuitWithEmptyNumbers&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.CollectNumbersTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.BubbleSortTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest.Sort_Array&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::D0B4ADCF-F1A8-4F23-A547-39111D1A6260::net7.0::Specs.QuickSortTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
