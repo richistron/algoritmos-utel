@@ -4,8 +4,6 @@ using SortingAlgorithms;
 
 var numbers = CollectNumbers.Collect();
 
-var sortingAlgorithm = new SelectSorting(numbers);
+var sorter = new SelectSorting().Select();
 
-ISorter sorter = sortingAlgorithm.Select();
-
-Console.WriteLine("Sorter numbers {0}", string.Join(",", sorter.Sort()));
+Console.WriteLine("Sorter numbers {0}", string.Join(",", sorter.Sort(numbers)));

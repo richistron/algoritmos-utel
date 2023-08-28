@@ -1,12 +1,13 @@
 ﻿namespace SortingAlgorithms;
 
-public class QuickSort: ISorter
+public class QuickSort : ISorter
 {
-    private readonly int[] _numbers;
-    public QuickSort(int[] numbers) => _numbers = numbers;
+    public QuickSort()
+    {
+    }
 
-    public int[] Sort() =>
-        SortItems(_numbers, 0, _numbers.Length - 1);
+    public int[] Sort(int[] numbers) =>
+        SortItems(numbers, 0, numbers.Length - 1);
 
     private int[] SortItems(int[] items, int start, int end)
     {

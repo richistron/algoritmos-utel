@@ -2,20 +2,16 @@
 
 public class SelectSorting
 {
-    private readonly int[] _numbers;
-
     private readonly SorterOptions[] _options = new[]
         { new SorterOptions("Bubble Sort", 'b'), new SorterOptions("Quick Sort", 'q') };
-
-    public SelectSorting(int[] numbers) => _numbers = numbers;
 
     public ISorter Select()
     {
         var option = FindOpion(SelectSortingAlgorithm());
         Console.WriteLine("You selected {0}", option.Name);
         if (option.Option == 'b')
-            return new BubbleSort(_numbers);
-        return new QuickSort(_numbers);
+            return new BubbleSort();
+        return new QuickSort();
     }
 
     private char SelectSortingAlgorithm()

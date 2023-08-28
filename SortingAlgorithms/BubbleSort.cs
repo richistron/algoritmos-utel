@@ -2,26 +2,19 @@
 
 public class BubbleSort : ISorter
 {
-    private readonly int[] _items;
-
-    public BubbleSort(int[] items)
+    public int[] Sort(int[] items)
     {
-        _items = items;
-    }
-
-    public int[] Sort()
-    {
-        for (int i = 0; i < _items.Length - 1; i++)
+        for (int i = 0; i < items.Length - 1; i++)
         {
-            for (int j = i + 1; j < _items.Length; j++)
+            for (int j = i + 1; j < items.Length; j++)
             {
-                if (_items[i] > _items[j])
+                if (items[i] > items[j])
                 {
-                    (_items[i], _items[j]) = (_items[j], _items[i]);
+                    (items[i], items[j]) = (items[j], items[i]);
                 }
             }
         }
 
-        return _items;
+        return items;
     }
 }
