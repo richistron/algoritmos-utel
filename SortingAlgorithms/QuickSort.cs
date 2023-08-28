@@ -1,11 +1,14 @@
 ﻿namespace SortingAlgorithms;
 
-public static class QuickSort
+public class QuickSort: ISorter
 {
-    public static IEnumerable<int> Sort(int[] items) =>
-        SortItems(items, 0, items.Length - 1);
+    private readonly int[] _numbers;
+    public QuickSort(int[] numbers) => _numbers = numbers;
 
-    private static int[] SortItems(int[] items, int start, int end)
+    public int[] Sort() =>
+        SortItems(_numbers, 0, _numbers.Length - 1);
+
+    private int[] SortItems(int[] items, int start, int end)
     {
         if (end <= start) return items;
 
@@ -16,7 +19,7 @@ public static class QuickSort
         return items;
     }
 
-    private static int Partition(IList<int> items, int start, int end)
+    private int Partition(IList<int> items, int start, int end)
     {
         var pivot = items[end];
         var j = start - 1;

@@ -4,7 +4,7 @@ public static class CollectNumbers
 {
     private static readonly List<int> Numbers = new List<int>();
 
-    public static IEnumerable<int> Collect()
+    public static int[] Collect()
     {
         bool quit;
         do
@@ -17,7 +17,7 @@ public static class CollectNumbers
             // Console.Clear();
         } while (!quit);
 
-        return Numbers;
+        return Numbers.ToArray();
     }
 
     private static void AddToCollection(ValidInputOption inputOption)

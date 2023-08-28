@@ -4,10 +4,8 @@ using SortingAlgorithms;
 
 var numbers = CollectNumbers.Collect();
 
-Console.WriteLine("Entered numbers {0}", string.Join(",", numbers));
+var sortingAlgorithm = new SelectSorting(numbers);
 
-// pick sort algorithm
+ISorter sorter = sortingAlgorithm.Select();
 
-// sort
-
-// print results
+Console.WriteLine("Sorter numbers {0}", string.Join(",", sorter.Sort()));

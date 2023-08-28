@@ -1,20 +1,27 @@
 ﻿namespace SortingAlgorithms;
 
-public static class BubbleSort
+public class BubbleSort : ISorter
 {
-    public static int[] Sort(int[] items)
+    private readonly int[] _items;
+
+    public BubbleSort(int[] items)
     {
-        for (int i = 0; i < items.Length - 1; i++)
+        _items = items;
+    }
+
+    public int[] Sort()
+    {
+        for (int i = 0; i < _items.Length - 1; i++)
         {
-            for (int j = i + 1; j < items.Length; j++)
+            for (int j = i + 1; j < _items.Length; j++)
             {
-                if (items[i] > items[j])
+                if (_items[i] > _items[j])
                 {
-                    (items[i], items[j]) = (items[j], items[i]);
+                    (_items[i], _items[j]) = (_items[j], _items[i]);
                 }
             }
         }
 
-        return items;
+        return _items;
     }
 }

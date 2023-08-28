@@ -12,6 +12,9 @@ public class BubbleSortTest
     [TestCase(new[] { 5, 4, 3, 2, 1 }, new[] { 1, 2, 3, 4, 5 })]
     [TestCase(new[] { 2, 1 }, new[] { 1, 2 })]
     [TestCase(new[] { 2 }, new[] { 2 })]
-    public void Sort_Array(int[] input, int[] output) =>
-        CollectionAssert.AreEqual(BubbleSort.Sort(input), output);
+    public void Sort_Array(int[] input, int[] output)
+    {
+        BubbleSort sorter = new(input);
+        CollectionAssert.AreEqual(sorter.Sort(), output);
+    }
 }
